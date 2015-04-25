@@ -3,7 +3,6 @@
 ```
 meteor add ostrio:neo4jreactivity
 meteor add d3js:d3
-
 ```
 
 ##### Neo4j initial data
@@ -30,10 +29,10 @@ CREATE (a5)-[r11:Weight]->(a1)
 ```
 
 
-#### When you delete all data on Neo4j
+##### When you delete all data on Neo4j
 
 ```
 MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n,r
 ```
 
-#### Synchronization with MongoDB on Meteor and Neo4j is not completed yet.
+##### Synchronization with MongoDB on Meteor and Neo4j is not completed yet.
